@@ -118,7 +118,7 @@ nav{
 /*home*/
 
 #home{
-	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/explore10.jpg);
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/explore10.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -153,12 +153,12 @@ nav{
 	}
 
 	#home h1{
-		
-		font-size: 20px;
+		margin-top: 25px;
+		font-size: 19px;
 	}
 
 	#home span{
-		font-size: 37px;
+		font-size: 34px;
 	}
 
 	#home p{
