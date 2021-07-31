@@ -118,22 +118,21 @@ nav{
 /*home*/
 
 #home{
-	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(../images/explore10.jpg);
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/explore10.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	
+	background-attachment: fixed;
 }
 
 #home .home-text{
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
 
 #home button{
-
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
 	transition: 0.5s ease;
 }
@@ -149,8 +148,17 @@ nav{
 
 @media screen and (max-width: 768px){
 
+	#home {
+		background-attachment: unset;
+	}
+
 	#home h1{
-		font-size: 25px;
+		
+		font-size: 20px;
+	}
+
+	#home span{
+		font-size: 37px;
 	}
 
 	#home p{
@@ -161,7 +169,6 @@ nav{
 /*explore*/
 
 #explore img{
-
 	border-radius:2px ;
 }
 
