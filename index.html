@@ -10,6 +10,9 @@
 	<link rel="stylesheet" href="assets/library/fontawesome/fontawesome-all.min.css">
 	<!-- animate css cdn -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<!-- google-font icon -->
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="shortcut icon"  href="assets/images/shortcut.png">
 </head>
@@ -18,7 +21,7 @@
 	<!-- header start -->
 	<header>
 		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-			<div class="container-fluid ">
+			<div class="container-fluid">
 				<div class="container">
 					<a href="index.html" class="navbar-brand font-jus font-40 ">
 					Santos<span class="text-fav">To</span>You
@@ -29,16 +32,16 @@
 				<div class="collapse navbar-collapse font-18" id="navbar">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a href="#intro" class="nav-link font-sort active">Home</a>
+							<a href="#" class="nav-link font-sort active">Home</a>
 						</li>					
 						<li class="nav-item">
-							<a href="#completed-prj" class="nav-link  font-sort">Explore</a>
+							<a href="#" class="nav-link  font-sort">Explore</a>
 						</li>
 						<li class="nav-item">
-							<a href="#myskills" class="nav-link  font-sort">Blog</a>
+							<a href="#" class="nav-link  font-sort">Blog</a>
 						</li>
 						<li class="nav-item">
-							<a href="#services" class="nav-link  font-sort">Contact</a>
+							<a href="#" class="nav-link  font-sort">Contact</a>
 						</li>
 
 					</ul>
@@ -46,11 +49,13 @@
 				</div>
 			</div>
 		<!-- totop button -->
-		 <!-- <div class="button-to-top">
-		      <button onclick="window.scrollTo(0, 0);" class="to-top" id="topBtn" title="Back to top">
-		      <img src="images/start-up.png" width="40">
-		      </button>
-		  </div> -->
+			 <div class="button-to-top">
+			      <button onclick="window.scrollTo(0,0);" class="to-top" id="topBtn" title="Back to top">
+				      	<span class="material-icons">
+							expand_less
+						</span>
+			      </button>
+			  </div>
 		</nav>
 	</header>
 	<!-- header end -->
@@ -59,11 +64,11 @@
 	<section id="home">
 		<div class="container">
 			<div class="home-text">
-				<h1 class="font-sort text-white text-center text-uppercase">
-					Start your <span class="text-fav font-dan"> ADVENTURE </span> with us !
+				<h1 class="font-sort text-white text-center text-uppercase mb-0">
+					Start your <span class="text-fav font-dan "> ADVENTURE </span> with us !
 				</h1>
-				<p class="font-16 font-bar text-center text-white ">
-					You can go whatever u like in the world and we are here to help you . 
+				<p class="font-20 font-play text-center text-white mb-0">
+					<span class="text-fav font-34 font-dan "> `` </span> You can go whatever u like  and we are here to help you ! <span class="text-fav font-34 font-dan"> '' </span>
 				</p>
 				<button class="animate__animated animate__rotateInDownLeft btn bg-fav px-4 py-2 d-block mx-auto text-white mt-4 font-bar">BOOK NOW!</button>
 			</div>
@@ -74,17 +79,25 @@
 	<!-- explore section start -->
 	<section id="explore" class="py-4 mt-4">
 		<div class="container">		
-			<h2 class="font-sar text-center text-uppercase">
+			<h2 class="font-play font-weight-bold text-center mt-4">
 				Explore
 			</h2>
-			<div class="row mt-5">
+			<div id="explore-custom-border-1">				
+			</div>
+			<p class="font-bar text-muted font-16 text-center my-3">
+				Lorem, ipsum dolor sit amet consectetur, adipisicing elit. 
+			</p>
+			<div class="row mt-3">
 				<div class="col-lg-3 image-explore mt-3 sm-none">
 					<div class="image-explore">
 						<img src="assets/images/explore4.jpg" alt="" class="img-fluid explore-img-1">
 						<div class="image-explore-overlay">
 							<div class="image-explore-text">
-								<p class="font-16 font-bar">
+								<p class="font-16 font-bar mb-0">
 									DESERTS
+								</p>
+								<p class="font-14 font-sort px-4 font-weight-bold text-fav">
+									Live with no excuses and travel with no regrets
 								</p>
 							</div>
 						</div>
@@ -97,8 +110,11 @@
 								<img src="assets/images/portrait/portrait3.jpg" alt="" class="img-fluid explore-img-2">
 								<div class="image-explore-overlay">
 									<div class="image-explore-text">
-										<p class="font-16 font-bar">
-											DESERTS
+										<p class="font-16 font-bar mb-0">
+											MOUNTAINS
+										</p>
+										<p class="font-14 font-bar px-5 font-weight-bold text-fav">
+										Live with no excuses and travel with no regrets
 										</p>
 									</div>
 								</div>
@@ -109,8 +125,11 @@
 								<img src="assets/images/portrait/portrait1.jpg" alt="" class="img-fluid explore-img-3">
 								<div class="image-explore-overlay">
 									<div class="image-explore-text">
-										<p class="font-16 font-bar">
-											DESERTS
+										<p class="font-16 font-bar mb-0">
+											ISLANDS
+										</p>
+										<p class="font-14 font-sort px-4 font-weight-bold text-fav">
+											Live with no excuses and travel with no regrets
 										</p>
 									</div>
 								</div>
@@ -123,8 +142,11 @@
 						<img src="assets/images/explore12.jpg" alt="" class="img-fluid explore-img-4">
 						<div class="image-explore-overlay">
 							<div class="image-explore-text">
-								<p class="font-16 font-bar">
-									DESERTS
+								<p class="font-16 font-bar mb-0">
+									DREAMS
+								</p>
+								<p class="font-14 font-sort px-4 font-weight-bold text-fav">
+									Live with no excuses and travel with no regrets
 								</p>
 							</div>
 						</div>
@@ -137,8 +159,11 @@
 								<img src="assets/images/portrait/portrait2.jpg" alt="" class="img-fluid explore-img-5">
 								<div class="image-explore-overlay">
 									<div class="image-explore-text">
-										<p class="font-16 font-bar">
-											DESERTS
+										<p class="font-16 font-bar mb-0">
+											CITIES
+										</p>
+										<p class="font-14 font-sort px-4 font-weight-bold text-fav">
+											Live with no excuses and travel with no regrets
 										</p>
 									</div>
 								</div>
@@ -149,8 +174,11 @@
 								<img src="assets/images/portrait/portrait4.jpg" alt="" class="img-fluid explore-img-6">
 								<div class="image-explore-overlay">
 									<div class="image-explore-text">
-										<p class="font-16 font-bar">
-											DESERTS
+										<p class="font-16 font-bar mb-0">
+											OCEANS
+										</p>
+										<p class="font-14 font-sort px-4 font-weight-bold text-fav">
+											Live with no excuses and travel with no regrets
 										</p>
 									</div>
 								</div>
@@ -159,18 +187,51 @@
 					</div>
 				</div>
 			</div>
-			<p class="font-18 font-bar text-center mt-4 text-muted py-2">
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, eligendi. Facilis, voluptate, pariatur? Aspernatur harum corporis accusamus odit quae, under.
-			</p>
+			
+			
+		</div>
+	</section>	
+	<!-- explore section end -->
+
+	<!-- travel section start -->
+	<section class="travel py-4">
+		<div class="container">		
+				<div class="row ">
+					<div class="col-md-6 col-lg-4 col-sm-6 mt-3">
+						<span>
+							<img src="assets/images/ship.png" alt="" width="60" class="d-block mx-auto">
+						</span>
+						<h3 class="font-play text-center my-3  text-fav">Cruies</h3>
+						<p class="font-16 font-sort text-muted text-center">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam itaque magni ratione minima. 
+						</p>
+					</div>
+					<div class="col-md-6 col-lg-4 col-sm-6 mt-3">
+						<span>
+							<img src="assets/images/flight.png" alt="" width="60" class="d-block mx-auto">
+						</span>
+						<h3 class="font-play text-center my-3 text-fav">Flights</h3>
+						<p class="font-16 font-sort text-muted text-center">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam itaque magni ratione minima. 
+						</p>
+					</div>
+					<div class="col-md-6 col-lg-4 col-sm-6 mt-3 d-block mx-auto">
+						<span>
+							<img src="assets/images/high-speed.png" alt="" width="60" class="d-block mx-auto">
+						</span>
+						<h3 class="font-play text-center my-3 text-fav">Subways</h3>
+						<p class="font-16 font-sort text-muted text-center">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam itaque magni ratione minima. 
+						</p>
+					</div>
+					
+				</div>		
+			</div>
 			
 		</div>
 	</section>
-	
-	<!-- explore section end -->
+	<!-- travel section end  -->
 
-	<!-- trvel section start -->
-	
-	<!-- trvel section end  -->
 	<!-- bootstrap js-->
 	<script src="assets/library/bootstrap/jquery-3.4.1.slim.min.js"></script>
 	<script src="assets/library/bootstrap/popper.min.js"></script>

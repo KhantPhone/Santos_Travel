@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Dancing+Script:wght@500&family=Just+Another+Hand&family=Sarabun:wght@500&family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
 :root{
-	--text-color: #15EFDD;
-	--bg-color: #15EFDD;
+	--text-color: #ffd859;
+	--bg-color: #ffd859;
 }
 
 html{
@@ -14,6 +16,7 @@ html{
 }
 
 body{
+	overflow-x:hidden;
 	background: #FBFBFB;
 }
 
@@ -38,6 +41,10 @@ body{
 
 .font-jus{
 	font-family: 'Just Another Hand', cursive;
+}
+
+.font-play {
+	 font-family: 'Playfair Display', serif;
 }
 
 .font-14{
@@ -108,17 +115,88 @@ nav{
 	color: var(--bg-color)!important;
 }
 
+nav .active{
+	color : var(--text-color)!important;
+}
+
 @media screen and (max-width: 768px){
+
 	.nav-link{
 		margin-left:0px;
 	}
 
 }
 
+/*to-top*/
+
+.to-top{
+	position: fixed;
+	bottom: 16px;
+	right: 18px;
+	cursor: pointer;
+	pointer-events: none;
+	opacity: 0;
+	z-index:1;
+	transition: all .4s;
+	background: red;	
+}
+
+.button-to-top button{	 
+	 background: none;
+	 border:none;
+	 outline: none;	 
+}
+
+.button-to-top span{
+	background: var(--bg-color);
+	color: #FFF;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
+	transition: 0.5s ease;
+}
+
+.button-to-top span:hover{
+	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.3); 
+	transform: translateY(-3px);
+}
+
+ .to-top:focus{
+	 background: none;
+	 border:none;
+	 outline: none;
+}
+
+.to-top.active{
+	bottom: 32px;
+	pointer-events: auto;
+	opacity: 1;
+
+}
+
+@media screen and (max-width: 768px){
+	.to-top{
+	position: fixed;
+	bottom: 16px;
+	right: 8px;
+	cursor: pointer;
+	pointer-events: none;
+	opacity: 0;
+	z-index:1;
+	transition: all .4s;
+	border-radius: 5px;
+	font-size: 30px;
+	}
+}
+
 /*home*/
 
 #home{
-	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/explore10.jpg);
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/explore9.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -144,6 +222,11 @@ nav{
 
 #home span{
 	font-size: 50px;
+
+}
+
+#home button{
+	animation-duration: 1.4s;
 }
 
 @media screen and (max-width: 768px){
@@ -164,12 +247,12 @@ nav{
 	#home p{
 		display: none;
 	}
+
 }
 
 /*explore*/
 
-#explore img{
-	
+#explore img{	
 	border-radius:2px ;
 }
 
@@ -178,7 +261,8 @@ nav{
 	max-width: 100%;
 }
 
-#explore .image-explore-overlay{
+
+#explore .image-explore-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -192,6 +276,7 @@ nav{
 	opacity: 0;
 	transition: 0.25s;
 	cursor: pointer;
+	text-align: center;
 }
 
 #explore .image-explore-overlay:hover{
@@ -199,12 +284,12 @@ nav{
 }
 
 #explore .image-explore-overlay > * {
-	transform: translateY(30px);
+	transform: translateY(250px);
 	transition: 0.25s;
 }
 
 #explore .image-explore-overlay:hover > * {
-	transform: translateY(0);
+	transform: translateY(20px);
 }
 
 #explore .explore-img-3{
@@ -215,6 +300,14 @@ nav{
 #explore .explore-img-6{
 	max-width: 100%;
 	height: 196px;
+}
+
+#explore-custom-border-1{
+	width: 9%;	
+	margin-left: 50%;
+	margin-right: 50%;
+	border-bottom: 3px solid var(--bg-color);
+	
 }
 
 @media screen and (max-width : 768px){
@@ -233,4 +326,13 @@ nav{
 	display: none;
 }
 
+#explore-custom-border-1{
+	width: 23%;	
+	margin-left: 50%;
+	margin-right: 50%;
+	border-bottom: 3px solid var(--bg-color);
+	
 }
+
+}
+/*travel*/
