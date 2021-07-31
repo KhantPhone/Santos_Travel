@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Dancing+Script:wght@500&family=Just+Another+Hand&family=Sarabun:wght@500&family=Sorts+Mill+Goudy&display=swap');
+:root{
+	--text-color: #15EFDD;
+	--bg-color: #15EFDD;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #FBFBFB;
+}
+
+
+/*global calsses*/
+
+.font-sar{
+	font-family: 'Sarabun', sans-serif;
+}
+
+.font-bar{
+	font-family: 'Barlow', sans-serif;
+}
+
+.font-sort{
+	font-family: 'Sorts Mill Goudy', serif;
+}
+
+.font-dan{
+	font-family: 'Dancing Script', cursive;
+}
+
+.font-jus{
+	font-family: 'Just Another Hand', cursive;
+}
+
+.font-14{
+	font-size: 14px;
+}
+
+.font-16{
+	font-size: 16px;
+}
+
+.font-18{
+	font-size: 18px;
+}
+
+.font-20{
+	font-size: 20px;
+}
+
+.font-24{
+	font-size: 24px;
+}
+
+.font-28{
+	font-size: 28px;
+}
+
+.font-30{
+	font-size: 30px;
+}
+
+.font-34{
+	font-size: 34px;
+}
+
+.font-40{
+	font-size: 40px;
+}
+
+.text-fav{
+	color: var(--text-color);
+}
+
+.bg-fav{
+	background: var(--bg-color);
+}
+
+/*nav*/
+
+nav{
+	z-index: 99;
+	overflow: hidden;
+	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2);
+}
+
+.navbar-toggler{	
+	display: contents;	
+}
+
+.navbar-toggler:hover{
+	color: var(--text-color)!important;
+}
+
+.nav-link{
+	margin-left: 30px;
+}
+
+.nav-link:hover{
+	color: var(--bg-color)!important;
+}
+
+@media screen and (max-width: 768px){
+	.nav-link{
+		margin-left:0px;
+	}
+
+}
+
+/*home*/
+
+#home{
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/explore9.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#home .home-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#home button{
+
+	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
+	transition: 0.5s ease;
+}
+
+#home button:hover{
+	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.4);
+	transform: translate(-1%);
+}
+
+#home span{
+	font-size: 50px;
+}
+
+@media screen and (max-width: 768px){
+
+	h1{
+		font-size: 25px;
+	}
+
+	p{
+		display: none;
+	}
+}
+
+/*explore*/
+
+#explore img{
+	
+	border-radius:2px ;
+}
+
+#explore img:hover{
+	transform: scale(1.1);
+	transition: transform 1s ease;
+}
+
+#explore .col-lg-3{
+	overflow: hidden;
+}
+
+#explore .explore-img-3{
+	max-width: 100%;
+	height: 186px;
+}
+
+#explore .explore-img-6{
+		max-width: 100%;
+	height: 196px;
+}
+
+@media screen and (max-width : 768px){
+
+#explore img:hover{
+	transform: scale(1);
+}
+
+
+#explore .explore-img-3{
+	max-width: 100%;
+	height: auto;
+}
+
+#explore .explore-img-6{
+	max-width: 100%;
+	height: auto;
+}
+
+.sm-none{
+	display: none;
+}
+
+}
