@@ -107,7 +107,7 @@ body{
 @media screen and (max-width : 768px){
 
 	#custom-border-1{
-	width: 23%;	
+	width: 29%;	
 	margin-left: 50%;
 	margin-right: 50%;
 	border-bottom: 3px solid var(--bg-color);
@@ -148,6 +148,12 @@ nav .active{
 	.nav-link{
 		margin-left:0px;
 	}
+
+	.navbar-brand{
+		font-size: 30px!important;
+	}
+
+	
 
 }
 
@@ -401,7 +407,8 @@ nav .active{
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		padding:12px 30px 12px 30px ;
+		padding:8px 24px 8px 24px ;
+		font-size: 16px;
 	}
 
 	#contact h1{
@@ -409,3 +416,40 @@ nav .active{
 		text-align: center;
 	}
 }
+
+/*activities*/
+
+#activities .card:hover{
+	transition: 0.5s;
+	background: var(--bg-color);
+}
+
+/*footer*/
+#footer input[type="email"] {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	height: 40px;
+	width: 70%;
+	background: none;
+	color:#ffff!important;
+	
+}
+
+#footer button{
+	outline: none;
+	border: none;
+	display: inline-block;
+	text-align: center;
+	vertical-align: center;
+	width: 40px;
+	height: 40px;
+	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
+	transition: 0.5s ease;
+}
+
+#footer button:hover{
+	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.4); 
+	
+}
+
