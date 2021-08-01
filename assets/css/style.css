@@ -3,6 +3,7 @@
 
 :root{
 	--text-color: #ffd859;
+	--text-second-color: #F9A826;
 	--bg-color: #ffd859;
 }
 
@@ -178,13 +179,12 @@ nav .active{
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
+	justify-content: center;	
 	transition: 0.5s ease;
 }
 
 .button-to-top span:hover{
-	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.3); 
+	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
 	transform: translateY(-3px);
 }
 
@@ -219,7 +219,7 @@ nav .active{
 /*home*/
 
 #home{
-	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/explore9.jpg);
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/explore6.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -260,7 +260,7 @@ nav .active{
 
 	#home h1{
 		margin-top: 25px;
-		font-size: 19px;
+		font-size: 22px;
 	}
 
 	#home span{
@@ -344,6 +344,17 @@ nav .active{
 }
 /*travel*/
 
+#travel span{
+	display: flex !important;
+	justify-content: center !important;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+#travel span:hover {
+	color: var(--text-color);
+}
+
 /*blogs*/
 
 @media screen and (max-width :768px){
@@ -351,5 +362,50 @@ nav .active{
 	#blogs p , 
 	#blogs span{
 		font-size: 15px;
+	}
+}
+
+/*contact*/
+
+#contact .container{
+	border-radius: 15px;
+}
+
+#contact .container {
+	padding: 6rem 3rem 6rem 3rem;
+	border-radius: 18px;
+}
+
+#contact button{
+	background: #fff;
+	color: var(--text-second-color);
+	border-radius: 10px;
+	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
+	transition: 0.5s ease;	
+	padding:10px 33px 10px 33px;
+}
+
+#contact button:hover{
+	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.4);
+	transform: translateY(-3px); 
+}
+
+@media screen and (max-width :768px){
+
+	#contact .container {
+		padding: 5rem 2rem 5rem 2rem;
+		border-radius: 15px;
+	}
+
+	#contact button{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding:12px 30px 12px 30px ;
+	}
+
+	#contact h1{
+		font-size: 26px;
+		text-align: center;
 	}
 }
