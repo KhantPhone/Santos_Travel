@@ -13,14 +13,17 @@
 	<!-- google-font icon -->
 	<link href="https://fonts.googleapis.com/css2?family=Material+Icons"
       rel="stylesheet">
+    <!-- swiper css cdn -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="shortcut icon"  href="assets/images/shortcut.png">
+	<link rel="shortcut icon"  href="assets/images/icon/shortcut.png">
 </head>
 <body>
 
 	<!-- header start -->
 	<header>
-		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light py-1">
 			<div class="container-fluid">
 				<div class="container">
 					<a href="index.html" class="navbar-brand font-jus font-40 ">
@@ -34,18 +37,20 @@
 				<div class="collapse navbar-collapse font-18" id="navbar">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a href="#" class="nav-link font-sort active">Home</a>
+							<a href="#home" class="nav-link font-sort active">Home</a>
 						</li>					
 						<li class="nav-item">
-							<a href="#" class="nav-link  font-sort">Explore</a>
+							<a href="#explore" class="nav-link  font-sort">Explore</a>
+						</li>					
+						<li class="nav-item">
+							<a href="#popular-places" class="nav-link  font-sort">PopularPlaces</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link  font-sort">Blog</a>
+							<a href="#contact" class="nav-link  font-sort">Contact</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link  font-sort">Contact</a>
+							<a href="#blogs" class="nav-link  font-sort">Blog</a>
 						</li>
-
 					</ul>
 				</div>
 				</div>
@@ -84,7 +89,7 @@
 			<h2 class="font-play font-weight-bold text-center mt-4">
 				Explore
 			</h2>
-			<div id="custom-border-1">				
+			<div id="explore-custom-border-1">				
 			</div>
 			<p class="font-bar text-muted font-16 text-center my-4">
 				Lorem, ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -92,7 +97,7 @@
 			<div class="row mt-3">
 				<div class="col-lg-3 image-explore mt-3 sm-none">
 					<div class="image-explore">
-						<img src="assets/images/explore4.jpg" alt="" class="img-fluid explore-img-1">
+						<img src="assets/images/portrait/explore4.jpg" alt="" class="img-fluid explore-img-1">
 						<div class="image-explore-overlay">
 							<div class="image-explore-text">
 								<p class="font-16 font-bar mb-0">
@@ -109,7 +114,7 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="image-explore">
-								<img src="assets/images/portrait/portrait3.jpg" alt="" class="img-fluid explore-img-2">
+								<img src="assets/images/landscape/landscape3.jpg" alt="" class="img-fluid explore-img-2">
 								<div class="image-explore-overlay">
 									<div class="image-explore-text">
 										<p class="font-16 font-bar mb-0">
@@ -124,7 +129,7 @@
 						</div>
 						<div class="col-lg-12 mt-3">
 							<div class="image-explore">
-								<img src="assets/images/portrait/portrait1.jpg" alt="" class="img-fluid explore-img-3">
+								<img src="assets/images/landscape/landscape1.jpg" alt="" class="img-fluid explore-img-3">
 								<div class="image-explore-overlay">
 									<div class="image-explore-text">
 										<p class="font-16 font-bar mb-0">
@@ -141,7 +146,7 @@
 				</div>
 				<div class="col-lg-3 mt-3 sm-none">
 					<div class="image-explore">
-						<img src="assets/images/explore12.jpg" alt="" class="img-fluid explore-img-4">
+						<img src="assets/images/portrait/explore12.jpg" alt="" class="img-fluid explore-img-4">
 						<div class="image-explore-overlay">
 							<div class="image-explore-text">
 								<p class="font-16 font-bar mb-0">
@@ -158,7 +163,7 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="image-explore">
-								<img src="assets/images/portrait/portrait2.jpg" alt="" class="img-fluid explore-img-5">
+								<img src="assets/images/landscape/landscape2.jpg" alt="" class="img-fluid explore-img-5">
 								<div class="image-explore-overlay">
 									<div class="image-explore-text">
 										<p class="font-16 font-bar mb-0">
@@ -173,7 +178,7 @@
 						</div>
 						<div class="col-lg-12 mt-3">
 							<div class="image-explore">
-								<img src="assets/images/portrait/portrait4.jpg" alt="" class="img-fluid explore-img-6">
+								<img src="assets/images/landscape/landscape4.jpg" alt="" class="img-fluid explore-img-6">
 								<div class="image-explore-overlay">
 									<div class="image-explore-text">
 										<p class="font-16 font-bar mb-0">
@@ -195,17 +200,244 @@
 	</section>	
 	<!-- explore section end -->	
 
+	<!-- popular-places section start -->
+	<section id="popular-places" class="py-4 mt-4 px-3">
+		<div class="container">		
+			<h2 class="font-play font-weight-bold text-center mt-4">
+				PopularPlaces
+			</h2>
+			<div id="popular-places-custom-border-1">				
+			</div>
+			<div class="row mt-4">
+				<div class="col-lg-4 col-md-6 mt-4 d-block mx-auto">
+					<div class="card pb-3 ">
+						<img src="assets/images/landscape/landscape18.jpg" alt="" class="img-fluid">
+						<div class="card-body">
+							<h2 class="font-20 font-sort font-weight-bold text-left mt-4 mb-0">
+							Bagan, Myanmar
+							</h2>
+					<p class="font-bar font-16 text-muted text-left mt-3 mb-0">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam quis velit magni eos incidunt nesciunt officia.
+					</p>
+					<p class="font-20 font-dan text-center mt-4 font-weight-bold text-fav">
+						Read More
+					</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mt-4">
+					<div class="card pb-3 ">
+						<img src="assets/images/landscape/landscape13.jpg" alt="" class="img-fluid">
+						<div class="card-body">
+							<h2 class="font-20 font-sort font-weight-bold text-left mt-4 mb-0">
+								Oaska, Japan
+							</h2>
+					<p class="font-bar font-16 text-muted text-left mt-3 mb-0">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam quis velit magni eos incidunt nesciunt officia.
+					</p>
+					<p class="font-20 font-dan text-center mt-4 font-weight-bold text-fav">
+						Read More
+					</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mt-4">
+					<div class="card pb-3 ">
+						<img src="assets/images/landscape/landscape9.jpg" alt="" class="img-fluid">
+						<div class="card-body">
+							<h2 class="font-20 font-sort font-weight-bold text-left mt-4 mb-0">
+								Amsterdan, Netherland
+							</h2>
+					<p class="font-bar font-16 text-muted text-left mt-3 mb-0">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam quis velit magni eos incidunt nesciunt officia.
+					</p>
+					<p class="font-20 font-dan text-center mt-4 font-weight-bold text-fav">
+						Read More
+					</p>
+						</div>
+					</div>
+				</div>				
+			</div>
+	</section>
+	<!-- popular-places section end -->
+
+	<!-- contact section start -->
+	<section id="contact" class="mt-3 py-4 px-3">
+		<div class="container bg-fav">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="font-sar  font-weight-bold text-white">Thinking about travelling around the world Lorem ipsum dolor sit, amet ! <span>consectetur adipisicing.</span></h1>
+					<button class="animate__animated wow animate__fadeInUp btn mt-5 font-bar font-18 font-weight-bold d-block mx-auto">Book Now<i class="fas fa-arrow-right ml-2 font-14"></i></button>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- contact section end-->	
+
+	<!-- activities section start -->
+	<section id="activities" class="py-4 px-3">
+		<div class="container">
+			<h2 class="font-play font-weight-bold text-center mt-4">
+				Activities
+			</h2>
+			<div id="activities-custom-border-1">				
+			</div>
+			<div class="row mt-3 pb-5">
+				<div class="col-lg-4 col-md-6 mt-4 ">
+					<div class="card py-5 px-5">
+						<img src="assets/images/svg/hiking_green.svg" alt="" width="130" class="img-fluid d-block mx-auto">
+						<div class="card-body">
+							<h2 class="font-20 font-weight-bold font-play text-center">
+								Hiking
+							</h2>
+							<p class="font-16 font-bar text-center text-muted mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mt-4">
+					<div class="card py-5 px-5">
+						<img src="assets/images/svg/fishing_green.svg" alt="" width="167" class="img-fluid d-block mx-auto">
+						<div class="card-body">
+							<h2 class="font-20 font-weight-bold font-play text-center">
+								Fishing
+							</h2>
+							<p class="font-16 font-bar text-center text-muted mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mt-4 d-block mx-auto">
+					<div class="card py-5 px-5">
+						<img src="assets/images/svg/camping_green.svg" alt="" width="166" class="img-fluid d-block mx-auto" >
+						<div class="card-body">
+							<h2 class="font-20 font-weight-bold font-play text-center">
+								Camping
+							</h2>
+							<p class="font-16 font-bar text-center text-muted mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<!-- activities section start -->
+
+	<!-- testimonial section start -->
+	<section id="testimonial" class="py-3">
+		<div class="container">
+			<h2 class="font-play font-weight-bold text-center mt-4">
+				Testimonials
+			</h2>
+			<div id="testimonial-custom-border-1">				
+			</div>
+			<div class="row my-5">				
+				<div class="col-lg-6 .col-md-12 mt-4">
+					<!-- swiper -->
+					<div class="swiper-container ">
+					    <div class="swiper-wrapper">
+							  <div class="swiper-slide ">
+								  	<span class="">
+								  		<img src="assets/images/customer/cust3.jpeg" alt="" class="d-block mx-auto img-fluid">
+								  	</span>
+								  	<p class="font-18 font-sort font-weight-bold text-center mt-4">
+								  		MaryPark
+								  	</p>
+								  	<p class="font-16 font-bar text-muted text-center ">
+								  	 	<i>
+								  	 		Nobis sit ipsam molestias perspiciatis officia  <br> atque. Exercitationem perferendis eos.
+								  	 	</i>
+								  	</p>
+								  	<p class="text-fav mt-4 text-center pb-5">
+								  		<i class="fas fa-star text-center"></i>
+								  		<i class="fas fa-star text-center"></i>
+								  		<i class="fas fa-star-half text-center"></i>
+								  	</p>
+							  </div>	
+							  <div class="swiper-slide ">
+								  	<span class="">
+								  		<img src="assets/images/customer/cust4.jpeg" alt="" class="d-block mx-auto img-fluid">
+								  	</span>
+								  	<p class="font-18 font-sort font-weight-bold text-center mt-4">
+								  		Elizabeth
+								  	</p>
+								  	<p class="font-16 font-bar text-muted text-center ">
+									  	<i>
+									  	 	Nobis sit ipsam molestias perspiciatis officia  <br> atque. Exercitationem perferendis eos.
+									  	</i>								  	 
+								  	</p>
+								  	<p class="text-fav mt-4 text-center pb-5">
+								  		<i class="fas fa-star text-center"></i>
+								  		<i class="fas fa-star text-center"></i>
+								  		<i class="fas fa-star-half text-center"></i>
+								  	</p>
+							  </div>	
+							  <div class="swiper-slide ">
+								  	<span class="">
+								  		<img src="assets/images/customer/cust5.jpeg" alt="" class="d-block mx-auto img-fluid">
+								  	</span>
+								  	<p class="font-18 font-sort font-weight-bold text-center mt-4">
+								  		JonathanWalker
+								  	</p>
+								  	<p class="font-16 font-bar text-muted text-center ">
+								  	 	<i>
+								  	 		Nobis sit ipsam molestias perspiciatis officia  <br> atque. Exercitationem perferendis eos.
+								  	 	</i>
+								  	</p>
+								  	<p class="text-fav mt-4 text-center pb-5">
+								  		<i class="fas fa-star text-center"></i>
+								  		<i class="fas fa-star text-center"></i>
+								  		<i class="fas fa-star-half text-center"></i>
+								  	</p>
+							  </div>	
+							  <div class="swiper-slide ">
+								  	<span class="">
+								  		<img src="assets/images/customer/cust2.jpeg" alt="" class="d-block mx-auto img-fluid">
+								  	</span>
+								  	<p class="font-18 font-sort font-weight-bold text-center mt-4">
+								  		Brian
+								  	</p>
+								  	<p class="font-16 font-bar text-muted text-center ">
+								  		<i>
+								  			Nobis sit ipsam molestias perspiciatis officia  <br> atque. Exercitationem perferendis eos.
+								  		</i>
+								  	</p>
+								  	<p class="text-fav mt-4 text-center pb-5">
+								  		<i class="fas fa-star text-center"></i>
+								  		<i class="fas fa-star text-center"></i>
+								  		<i class="fas fa-star-half text-center"></i>
+								  	</p>
+							  </div>							  
+					    </div>
+			   			 <!-- Pagination -->
+					    <div class="swiper-pagination testimonial-swiper-pagination"></div>
+					</div>
+				</div>
+				<div class="col-lg-6 .col-md-12 mt-4 ">
+					<p class="font-24 font-play mt-5 text-center font-weight-bold sidebar-title">
+						Join Us Now !
+					</p>
+					<p class="font-bar font-18 text-muted mt-4 sidebar-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus a, sint ducimus facilis magni voluptatem.
+					</p>
+					<button class="animate__animated wow animate__fadeInUp btn mt-3 font-bar font-18 font-weight-bold bg-fav" >Book Now<i class="fas fa-arrow-right ml-2 font-14"></i></button>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!-- testimonial section end -->
+
 	<!-- blogs section start -->
 	<section id="blogs" class="py-4 px-3">
 		<div class="container">
-			<h2 class="font-play font-weight-bold text-center mt-4">
+			<h2 class="font-play font-weight-bold text-center ">
 				Our Blogs
 			</h2>
-			<div id="custom-border-1">				
+			<div id="blogs-custom-border-1">				
 			</div>
-			<div class="row mt-4 ">
+			<div class="row my-4 ">
 				<div class="col-lg-4 col-md-6 mt-4">
-					<img src="assets/images/portrait/portrait5.jpg" alt="" class="img-fluid mb-2">
+					<img src="assets/images/landscape/landscape5.jpg" alt="" class="img-fluid mb-2">
 					<h2 class="font-20 font-sort font-weight-bold text-left mt-4 mb-0">Ocean Blue Eyes</h2>
 					<p class="font-bar font-16 text-muted text-left mt-3 mb-0">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam quis velit magni eos incidunt nesciunt officiis, est, provident unde, voluptatibus sunt cupiditate recusandae ratione.
@@ -223,7 +455,7 @@
 					</p>
 				</div>	
 				<div class="col-lg-4 col-md-6 mt-4">
-					<img src="assets/images/portrait/portrait6.jpg" alt="" class="img-fluid mb-2">
+					<img src="assets/images/landscape/landscape6.jpg" alt="" class="img-fluid mb-2">
 					<h2 class="font-20 font-sort font-weight-bold text-left mt-4 mb-0">Ocean Blue Eyes</h2>
 					<p class="font-bar font-16 text-muted text-left mt-3 mb-0">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam quis velit magni eos incidunt nesciunt officiis, est, provident unde, voluptatibus sunt cupiditate recusandae ratione.
@@ -241,7 +473,7 @@
 					</p>
 				</div>	
 				<div class="col-lg-4 col-md-6 mt-4 d-block mx-auto">
-					<img src="assets/images/portrait/portrait7.jpg" alt="" class="img-fluid mb-2">
+					<img src="assets/images/landscape/landscape7.jpg" alt="" class="img-fluid mb-2">
 					<h2 class="font-20 font-sort font-weight-bold text-left mt-4 mb-0">Ocean Blue Eyes</h2>
 					<p class="font-bar font-16 text-muted text-left mt-3 mb-0">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam quis velit magni eos incidunt nesciunt officiis, est, provident unde, voluptatibus sunt cupiditate recusandae ratione.
@@ -262,72 +494,11 @@
 		</div>		
 	</section>
 	<!-- blogs section end -->
-
-	<!-- contact section start -->
-	<section id="contact" class="py-4 px-3">
-		<div class="container bg-fav">
-			<div class="row">
-				<div class="col-12">
-					<h1 class="font-sar  font-weight-bold text-white">Thinking about travelling around the world Lorem ipsum dolor sit, amet, consectetur adipisicing.</h1>
-					<button class="animate__animated wow animate__fadeInUp btn mt-5 font-bar font-18 font-weight-bold d-block mx-auto">Book Now<i class="fas fa-arrow-right ml-2 font-14"></i></button>
-				</div>
-				
-			</div>
-			
-		</div>
-	</section>
-	<!-- contact section end-->	
-
-	<!-- activities section start -->
-	<section id="activities" class="py-4 px-3">
-		<div class="container">
-			<h2 class="font-play font-weight-bold text-center mt-4">
-				Activities
-			</h2>
-			<div id="custom-border-1">				
-			</div>
-			<div class="row mt-3 pb-5">
-				<div class="col-lg-4 col-md-6 mt-4 ">
-					<div class="card py-5 px-5">
-						<img src="assets/images/hiking.svg" alt="" width="130" class="img-fluid d-block mx-auto">
-						<div class="card-body">
-							<h2 class="font-20 font-weight-bold font-play text-center">
-								Hiking
-							</h2>
-							<p class="font-16 font-bar text-center text-muted mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 mt-4">
-					<div class="card py-5 px-5">
-						<img src="assets/images/fishing.svg" alt="" width="167" class="img-fluid d-block mx-auto">
-						<div class="card-body">
-							<h2 class="font-20 font-weight-bold font-play text-center">
-								Fishing
-							</h2>
-							<p class="font-16 font-bar text-center text-muted mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 mt-4 d-block mx-auto">
-					<div class="card py-5 px-5">
-						<img src="assets/images/airballoon.svg" alt="" width="166" class="img-fluid d-block mx-auto" >
-						<div class="card-body">
-							<h2 class="font-20 font-weight-bold font-play text-center">
-								Hot Air Balloon
-							</h2>
-							<p class="font-16 font-bar text-center text-muted mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-	</section>
-	<!-- activities section start -->
-
+	
 	<!-- footer section start -->
-	<footer id="footer" class="py-5 bg-fav">
+	<footer id="footer" class="mt-5 py-4 px-3 bg-fav">
 		<div class="container">
-			<div class="row mt-1">
+			<div class="row mt-3">
 				<div class="col-md-6 col-lg-3 mt-3 text-white">
 					<p class="font-16 font-play text-left text-uppercase font-weight-bold">About Us
 					</p>
@@ -368,15 +539,15 @@
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 					</p>
 					<form action="#">
-						<input type="email" placeholder="Type Here" class="font-bar font-14 ">
+						<input type="text" placeholder="Type Here" class="font-bar font-14 ">
 					<button class="mt-1">
 						<i class="far fa-paper-plane text-fav"></i>
 					</button>
 					</form>
 				</div>
 				<div class="col-12 text-center mt-5 text-white">
-					<p class="font-14 font-bar ">
-							Copyright &copy; 2021 All right reserved .Made with <i class="far fa-heart"></i> By <span class="font-play font-16">
+					<p class="font-14 font-bar credit-text">
+							Copyright &copy; 2021 All right reserved. Made with <i class="fas fa-heart text-danger"></i> by <span class="font-play font-16">
 							<a href="" class="text-white">Khant Phone</a></span>
 						</span>
 					</p>
@@ -392,6 +563,10 @@
 	<script src="assets/library/bootstrap/bootstrap.min.js"></script>
 	<!-- wow js cdn -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<!-- Swiper JS cdn -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script src="assets/js/script.js"></script>
 	<script>
 		
