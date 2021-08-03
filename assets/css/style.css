@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 :root{
-	--text-color: #ffd859;
-	--text-second-color: #ffd859;
-	--bg-color: #ffd859;
+	--text-color: #1CF3E1;
+	--text-second-color: #1CF3E1;
+	--bg-color: #1CF3E1;
 	/*color codes for yellow : #ffd859;*/
 	/*color codes for green : #1CF3E1;*/
 }
