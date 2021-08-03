@@ -32,7 +32,7 @@
 
       loop:true,
        autoplay: {
-        delay:1400 ,
+        delay:2000,
         disableOnInteraction: false,
 
       },
