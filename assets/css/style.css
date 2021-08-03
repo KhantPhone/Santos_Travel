@@ -251,7 +251,7 @@ nav .active{
 	}
 
 	#home h1{
-		margin-top: 25px;
+		margin-top: 10px;
 		font-size: 22px;
 	}
 
@@ -261,6 +261,10 @@ nav .active{
 
 	#home p{
 		display: none;
+	}
+
+	#home button{
+		display: none!important;
 	}
 
 }
@@ -505,10 +509,10 @@ nav .active{
 #contact button{
 	background: #fff;
 	color: var(--text-second-color);
-	border-radius: 10px;
+
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.1); 
 	transition: 0.5s ease;	
-	padding:10px 33px 10px 33px;
+	
 }
 
 #contact button:hover{
@@ -521,15 +525,7 @@ nav .active{
 	#contact .container {
 		padding: 5rem 2rem 5rem 2rem;
 		border-radius: 15px;
-	}
-
-	#contact button{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		padding:8px 28px 8px 28px ;
-		font-size: 16px;
-	}
+	}	
 
 	#contact h1{
 		font-size: 26px;
@@ -610,6 +606,11 @@ nav .active{
 
 
 @media screen and (max-width: 768px){
+
+	#testimonial img{
+		width: 85px;
+		height: 85px;
+	}
 
 	#testimonial-custom-border-1{
 	width: 30%;	
