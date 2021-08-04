@@ -653,7 +653,9 @@ nav .active{
 	color:#ffff!important;
 	
 }
-
+#footer .text-muted{
+	color: #fff!important;
+}
 #footer img{
 	width: 58px;
 	height: 58px;
@@ -702,4 +704,23 @@ nav .active{
 		background: #fff!important;
 		color: var(--text-color)!important;
 	}
+
+	#footer .text-muted{
+		color: #6C757D!important;
+	}
+
+	#footer input[type="text"] {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid  #6C757D;
+	height: 40px;
+	width: 70%;
+	background: none;
+	color:#ffff!important;	
+	}
+
+	#footer ::placeholder {
+		color: #6C757D;
+	}
+
 }
