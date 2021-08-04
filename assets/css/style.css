@@ -382,8 +382,8 @@ nav .active{
 @media screen and (max-width: 768px){
 
 	#popular-places-custom-border-1{
-	width: 30%;	
-	margin-left: 52%;
+	width: 34%;	
+	margin-left: 55%;
 	margin-right: 50%;
 	border-bottom: 3px solid var(--bg-color);	
 	}
@@ -678,9 +678,28 @@ nav .active{
 	height: 40px;
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.1); 
 	transition: 0.5s ease;
+	background: #fff!important;
+	color: var(--text-color)!important;
 }
 
 #footer button:hover{
 	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.2); 
 	
+}
+
+@media screen and (max-width :768px){
+
+	#footer button{
+		outline: none;
+		border: none;
+		display: inline-block;
+		text-align: center;
+		vertical-align: center;
+		width: 40px;
+		height: 40px;
+		box-shadow: 0 1px 15px 0 rgba(0,0,25,0.1); 
+		transition: 0.5s ease;
+		background: #fff!important;
+		color: var(--text-color)!important;
+	}
 }
