@@ -231,8 +231,7 @@ nav .active{
 }
 
 #home button:hover{
-	box-shadow: 0 1px 15px 0 rgba(0,0,25,0.4);
-	transform: translate(-1%);
+	
 }
 
 #home span{
