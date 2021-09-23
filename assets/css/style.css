@@ -102,6 +102,28 @@ body{
 	background: var(--bg-color);
 }
 
+/*preloader*/
+
+.content{
+	display: none;
+}
+
+.loader{	
+	height: 100vh;
+	width: 100vw;	
+	
+	background: #FBFBFB;
+}
+
+.loader>div{	
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+}
 
 /*nav*/
 
@@ -391,6 +413,10 @@ nav .active{
 
 /*packages*/
 
+ #packages button{
+ 	animation-duration: 5s;
+ }
+
  #packages .packages-text{
  	margin-top: 5rem;
  }
@@ -430,7 +456,7 @@ nav .active{
  }
  
 
- #packages button{
+ #packages button{ 	
  	border: 1px solid var(--bg-color);
  	outline: none;
  	background: #FBFBFB; 	

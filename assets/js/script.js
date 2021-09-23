@@ -1,3 +1,11 @@
+/*preloader*/
+
+ $(window).on('load',function(){
+    $(".loader").fadeOut(1000);
+    $(".content").fadeIn(1500);
+ })
+
+
 /*wowJs*/
 
 	new WOW().init();
@@ -37,3 +45,4 @@
 
       },
     });
+
