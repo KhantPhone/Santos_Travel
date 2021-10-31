@@ -414,7 +414,7 @@ nav .active{
 /*packages*/
 
  #packages button{
- 	animation-duration: 5s;
+ 	animation-duration: 0.9s;
  }
 
  #packages .packages-text{
